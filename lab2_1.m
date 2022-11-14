@@ -1,0 +1,9 @@
+N=12;
+n=[0:2*N-1];
+M=10;
+x_M=sin((2*pi*M*n)/N);
+figure(1);
+stem(n,x_M,'filled');
+title('x[n]=sin(2*pi*M*n/N)');
+xlabel('Time');
+ylabel('Amplitude');

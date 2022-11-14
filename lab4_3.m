@@ -1,0 +1,11 @@
+tx=1:0.1:5;
+th=2:0.1:7;
+tx1=ones(1,length(tx));
+th1=ones(1,length(th));
+ty=3:0.1:12;
+y=0.1*conv(tx1,th1);
+figure(1)
+stem(ty,y)
+xlabel('Time')
+ylabel('Amplitude')
+title('y(t)')
